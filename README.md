@@ -380,7 +380,7 @@ sqlmap -u 'https://LAB-ID.web-security-academy.net/filtered_search?find=cizipbkq
    - Multistep clickjacking
 
 
-## **_CORS (The application's response contains the Access-Control-Allow-Credentials:True header_**
+## **_CORS (The application's response contains the Access-Control-Allow-Credentials:True header)_**
 
 Tip: Make sure the ParamMiner burp extension is turned off before testing for and exploiting CORS.
 
