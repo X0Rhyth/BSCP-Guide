@@ -137,6 +137,7 @@ I have highlighted the labs that I found to be uniquely important within their r
 ## **_Forgot password functionality_**
 ### * **HTTP host header attacks**
    - _**Basic password reset poisoning**_
+     
      Tip: Portswigger has an amazing list in case a host header vulnerability is present but the server is implementing URL validation techniques
 https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet
      
