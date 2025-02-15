@@ -979,7 +979,7 @@ sqlmap -u 'https://LAB-ID.web-security-academy.net/filter?category=Accessories' 
 ### * Web Cache Deception
    - Exploiting path mapping for web cache deception ( "/my-account/abc.js" is understood by the origin server as  “/my-account” but by the cache server as cachable “/my-account/abc.js” )
 
-   - Exploiting path delimiters for web cache deception  ( “/my-account;abc.js” is understood by the origin server as  “/my-account” but by the cache server as cachable “ /my-account;abc.js”. Server must see ; as a delimeter but the cash shouldn't see it as such for the attack to succeed. )
+   - Exploiting path delimiters for web cache deception  ( “/my-account;abc.js” is understood by the origin server as  “/my-account” but by the cache server as cachable “ /my-account;abc.js”. Server must see ; as a delimeter but the cache shouldn't see it as such for the attack to succeed. )
 
    - Exploiting origin server normalization for web cache deception
 
