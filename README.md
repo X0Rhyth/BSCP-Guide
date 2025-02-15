@@ -47,8 +47,6 @@ I have highlighted the labs that I found to be uniquely important within their r
 
 [File Upload functionality](#File-Upload-functionality)
 
-[User Import functionality](#User-Import-functionality)
-
 [Gift Card Functionality](#Gift-Card-functionality)
 
 [Images Functionality](#Images-Functionality)
