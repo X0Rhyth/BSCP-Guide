@@ -69,7 +69,7 @@ I have highlighted the labs that I found to be uniquely important within their r
 
 [Path Traversal](#Path-Traversal)
 
-[View Product pages Functionality Functionality](#View-Product-pages-Functionality-Functionality)
+[View Product pages Functionality](#View-Product-pages-Functionality)
 
 [Promote users Functionality](#Promote-users-functionality)
 
