@@ -708,7 +708,7 @@ sqlmap -u 'https://LAB-ID.web-security-academy.net:443/filter?category=Accessori
 
 
 ### * Stay logged in Cookie
-   -Authentication bypass via encryption oracle (use the server's encrypt and decrypt mechanism to decrypt the stay-logged-in cookie and see its structure, to craft a stay-logged in cookie for admin user)
+   - Authentication bypass via encryption oracle (use the server's encrypt and decrypt mechanism to decrypt the stay-logged-in cookie and see its structure, to craft a stay-logged in cookie for admin user)
 
 ### * Session Cookies
    - Stored XSS in Session Cookie
