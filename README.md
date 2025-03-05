@@ -41,7 +41,7 @@ I have highlighted the labs that I found to be uniquely important within their r
 
 [Delete account functionality](#Delete-account-functionality)
 
-[Download report as PDF functionality (wkhtmltopdf)](#Download-report-as-PDF-functionality-wkhtmltopdf)
+[Download HTML as PDF functionality (wkhtmltopdf)](#Download-HTML-as-PDF-functionality-wkhtmltopdf)
 
 [Edit product description functionality](#Edit-product-description-functionality)
 
@@ -447,18 +447,16 @@ req.send();
    - Using application functionality to exploit insecure deserialization
 
 
-## Download report as PDF functionality (wkhtmltopdf)
+## Download HTML as PDF functionality (wkhtmltopdf)
 
 Tip : wkhtmltopdf is a command line tool that renders HTML into PDF and various image formats. Older versions are vulnerable to an SSRF vulnerability that allows local file inclusion. 
 https://www.virtuesecurity.com/kb/wkhtmltopdf-file-inclusion-vulnerability-2/
 
-We simply inject our malicious code into the data intended to be rendered by wkhtmltopdf so when the tool renders the data our code is executed. This command renders all the available files on the localhost machine. 
+To exploit it, We simply inject our malicious code into the data intended to be rendered by wkhtmltopdf so when the tool renders the data our code is executed. This command renders all the available files on the localhost machine. 
 
 `<iframe src='http://localhost:6566/' height='500' width='500'>`
 
 From there we can pick which specific file we want to view.
-
-`<iframe src='http://localhost:6566/secret' height='500' width='500'>`
 
 
 ## **_Edit product description functionality_**
